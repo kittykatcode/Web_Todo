@@ -2,7 +2,7 @@ import streamlit as st
 import functionTodo
 
 st.title(' Fun ToDo App')
-st.subheader('This is my todo app')
+st.subheader('This is my Todo app')
 st.write('It will help you increase your productivity')
 
 todos = functionTodo.get_todo()
